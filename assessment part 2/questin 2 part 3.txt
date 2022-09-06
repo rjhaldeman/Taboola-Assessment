@@ -1,0 +1,10 @@
+This is my answer for question 2 part III of my Taboola assessment.
+
+III. Suggest changes that should be done in order to support any data type (as
+opposed to only an int data type)
+
+I think to support any data type would be easy as long as the data type was consistent in the entire tree.
+With serializing to a String, having data in the form of Strings and Chars is already supported.
+
+During the calling of the function we could pass through a String paramater called 'type' and write different functions that would cast the Data to tpye bool or array.
+The code would have to be adjucted to pass in data structures like arrays or ArrayLists but all of these options would be relaively easy to implement.
